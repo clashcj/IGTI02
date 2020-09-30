@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pesquisa de Usuários</title>
+
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <h1 style="text-align: center; font-size: 50px">Pesquisa de Usuários</h1>
+    <label>Busca </label>
+    <input size="100px;" />
+    <button id="BtnBuscar">Buscar</button>
+
+    <div style="padding-top: 40px; display: flex">
+      <div class="coluna" id="usuarios">
+        <h5><span id="spanUsuarios">Nenhum usuário filtrado</span></h5>
+        <div id="tabUsuarios"></div>
+      </div>
+
+      <div class="coluna" id="estatistica">
+        <h5><span id="spanEstatisticas">Nada a ser exibido</span></h5>
+        <div id="tabEstatisticas"></div>
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
